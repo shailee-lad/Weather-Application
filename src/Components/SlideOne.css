@@ -1,0 +1,154 @@
+div > #wallpaper
+{
+    
+    height: auto;
+    width: 100%;
+    position: absolute;
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center;
+}
+
+div > .title
+{
+    display: block;
+    z-index: 1;
+    position: absolute;
+    transform: translateX(0);
+    color: white;
+    top: 5%;
+    left: 33%;
+    text-align: center;
+    font-size: 60px; 
+    
+}
+
+
+div > #currentTemperature
+{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+
+div > .current
+{
+    width: auto;
+    font-size: 8px; 
+    position: absolute;
+    color: white;
+    right: 10px;
+    top: 10px;
+}
+
+
+div > .text-container > .cityOfWeather
+{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translateX(0);
+    width: 40%;
+    height: 5%;
+}
+
+div > .text-container > .serachBarImage > .search
+{
+    position: absolute;
+    transform: translateX(0);
+    top: 25%;
+    left: 67%;
+    height: 6%;
+
+}
+
+
+div > .locationTitle
+{
+    position: absolute;
+    transform: translateX(0);
+    color: white;
+    top: 33%;
+    left: 43%;
+    font-size: 40px;
+}
+
+/**
+div > .Data-container
+{
+    position: absolute;
+    transform: translateX(0);
+    color: white;
+    /**border-style: dashed;
+    border-color: white;**//**
+    top: 50%;
+    left: 60%;
+    width: 300px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    height: 500px;
+    
+}
+**/
+div > .humidity-block
+{
+    position: absolute;
+    transform: translateX(0);
+    color: white;
+    top: 100%;
+    left: 35%;
+    font-size: 15px;
+}
+
+div > .wind-block
+{
+    position: absolute;
+    transform: translateX(0);
+    color: white;
+    top: 100%;
+    left: 60%;
+    font-size: 15px;
+}
+
+div > .temperature-rate
+{
+    position: absolute;
+    transform: translateX(0);
+    color: white;
+    top: 72%;
+    left: 40%;
+    font-size: 90px;
+}
+
+div > .sunnyImage
+{
+    position: absolute;
+    transform: translateX(0);
+    top:46%;
+    left: 40%;
+    height: 200px;
+    width: 210px;
+}
+
+
+
+
+
+
+
+
+div > .container2 > .title2
+{
+    text-align: center;
+    font-size: 50px; 
+    position: absolute;
+    transform: translateX(0);
+    color: white;
+    top: 125%;
+    left: 40%;
+}
+
